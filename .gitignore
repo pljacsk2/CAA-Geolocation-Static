@@ -1,0 +1,5 @@
+/dist/
+/dist/*
+/inline/
+*~
+/node_modules/

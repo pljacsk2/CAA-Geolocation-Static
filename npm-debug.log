@@ -1,0 +1,1547 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'grunt-contrib-copy' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose install initial load of /Users/pauljackson/Desktop/CAA-Geolocation-Static/package.json
+5 warn package.json geolocation@0.5.0 No repository field.
+6 warn package.json geolocation@0.5.0 No README data
+7 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/Gruntfile.js/package.json
+8 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt/package.json
+9 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-clean/package.json
+10 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-htmlmin/package.json
+11 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-uglify/package.json
+12 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-include-replace/package.json
+13 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-inline/package.json
+14 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-mount/package.json
+15 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-prompt/package.json
+16 verbose installManyTop reading scoped package data from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-prompts/package.json
+17 info package.json grunt-mount@0.2.5 No license field.
+18 info package.json grunt-prompts@0.1.1 No license field.
+19 info package.json grunt-inline@0.3.6 No license field.
+20 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/package.json
+21 silly cache add args [ 'grunt-contrib-copy', null ]
+22 verbose cache add spec grunt-contrib-copy
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'grunt-contrib-copy',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'grunt-contrib-copy',
+23 silly cache add   rawSpec: '',
+23 silly cache add   spec: 'latest',
+23 silly cache add   type: 'tag' }
+24 silly addNamed grunt-contrib-copy@latest
+25 verbose addNamed "latest" is being treated as a dist-tag for grunt-contrib-copy
+26 info addNameTag [ 'grunt-contrib-copy', 'latest' ]
+27 silly mapToRegistry name grunt-contrib-copy
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-copy
+31 verbose addNameTag registry:https://registry.npmjs.org/grunt-contrib-copy not in flight; fetching
+32 verbose request uri https://registry.npmjs.org/grunt-contrib-copy
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 10:12:34 PM
+35 verbose request id 34d1f7f54ba07ab9
+36 http request GET https://registry.npmjs.org/grunt-contrib-copy
+37 http 200 https://registry.npmjs.org/grunt-contrib-copy
+38 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+38 verbose headers   etag: '"8ZPWAEBFCHPB7P2QQDVGNKMO8"',
+38 verbose headers   'content-type': 'application/json',
+38 verbose headers   'content-encoding': 'gzip',
+38 verbose headers   'cache-control': 'max-age=300',
+38 verbose headers   'content-length': '7789',
+38 verbose headers   'accept-ranges': 'bytes',
+38 verbose headers   date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+38 verbose headers   via: '1.1 varnish',
+38 verbose headers   age: '42',
+38 verbose headers   connection: 'keep-alive',
+38 verbose headers   'x-served-by': 'cache-lax1422-LAX',
+38 verbose headers   'x-cache': 'HIT',
+38 verbose headers   'x-cache-hits': '1',
+38 verbose headers   'x-timer': 'S1465189945.337520,VS0,VE0',
+38 verbose headers   vary: 'Accept-Encoding' }
+39 silly get cb [ 200,
+39 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 silly get     etag: '"8ZPWAEBFCHPB7P2QQDVGNKMO8"',
+39 silly get     'content-type': 'application/json',
+39 silly get     'content-encoding': 'gzip',
+39 silly get     'cache-control': 'max-age=300',
+39 silly get     'content-length': '7789',
+39 silly get     'accept-ranges': 'bytes',
+39 silly get     date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+39 silly get     via: '1.1 varnish',
+39 silly get     age: '42',
+39 silly get     connection: 'keep-alive',
+39 silly get     'x-served-by': 'cache-lax1422-LAX',
+39 silly get     'x-cache': 'HIT',
+39 silly get     'x-cache-hits': '1',
+39 silly get     'x-timer': 'S1465189945.337520,VS0,VE0',
+39 silly get     vary: 'Accept-Encoding' } ]
+40 verbose get saving grunt-contrib-copy to /Users/pauljackson/.npm/registry.npmjs.org/grunt-contrib-copy/.cache.json
+41 silly addNameTag next cb for grunt-contrib-copy with tag latest
+42 silly addNamed grunt-contrib-copy@1.0.0
+43 verbose addNamed "1.0.0" is a plain semver version for grunt-contrib-copy
+44 silly mapToRegistry name grunt-contrib-copy
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-copy
+48 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz not in flight; adding
+49 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz',
+49 verbose addRemoteTarball   '7060c6581e904b8ab0d00f076e0a8f6e3e7c3573' ]
+50 info retry fetch attempt 1 at 10:12:34 PM
+51 info attempt registry request try #1 at 10:12:34 PM
+52 http fetch GET https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz
+53 http fetch 200 https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz
+54 silly fetchAndShaCheck shasum 7060c6581e904b8ab0d00f076e0a8f6e3e7c3573
+55 verbose addTmpTarball /var/folders/7n/4khqt2p91f30_ct266r0yznc0000gn/T/npm-5595-ee3c88e8/registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz not in flight; adding
+56 verbose addTmpTarball already have metadata; skipping unpack for grunt-contrib-copy@1.0.0
+57 silly cache afterAdd grunt-contrib-copy@1.0.0
+58 verbose afterAdd /Users/pauljackson/.npm/grunt-contrib-copy/1.0.0/package/package.json not in flight; writing
+59 verbose afterAdd /Users/pauljackson/.npm/grunt-contrib-copy/1.0.0/package/package.json written
+60 silly install resolved [ { name: 'grunt-contrib-copy',
+60 silly install resolved     description: 'Copy files and folders',
+60 silly install resolved     version: '1.0.0',
+60 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+60 silly install resolved     repository:
+60 silly install resolved      { type: 'git',
+60 silly install resolved        url: 'git+https://github.com/gruntjs/grunt-contrib-copy.git' },
+60 silly install resolved     license: 'MIT',
+60 silly install resolved     engines: { node: '>=0.10.0' },
+60 silly install resolved     main: 'tasks/copy.js',
+60 silly install resolved     scripts: { test: 'grunt test' },
+60 silly install resolved     dependencies: { chalk: '^1.1.1', 'file-sync-cmp': '^0.1.0' },
+60 silly install resolved     devDependencies:
+60 silly install resolved      { grunt: '^0.4.5',
+60 silly install resolved        'grunt-cli': '^0.1.13',
+60 silly install resolved        'grunt-contrib-clean': '^1.0.0',
+60 silly install resolved        'grunt-contrib-internal': '^0.4.5',
+60 silly install resolved        'grunt-contrib-jshint': '^1.0.0',
+60 silly install resolved        'grunt-contrib-nodeunit': '^0.4.1' },
+60 silly install resolved     keywords: [ 'gruntplugin' ],
+60 silly install resolved     files: [ 'tasks' ],
+60 silly install resolved     appveyor_id: 'fe6l517l01ys2y86',
+60 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+60 silly install resolved     gitHead: '85150c7bfef1279911cb844eefdcd7b2c31ad9d1',
+60 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-copy/issues' },
+60 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-copy#readme',
+60 silly install resolved     _id: 'grunt-contrib-copy@1.0.0',
+60 silly install resolved     _shasum: '7060c6581e904b8ab0d00f076e0a8f6e3e7c3573',
+60 silly install resolved     _from: 'grunt-contrib-copy@latest',
+60 silly install resolved     _npmVersion: '3.6.0',
+60 silly install resolved     _nodeVersion: '5.7.1',
+60 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+60 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+60 silly install resolved     dist:
+60 silly install resolved      { shasum: '7060c6581e904b8ab0d00f076e0a8f6e3e7c3573',
+60 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz' },
+60 silly install resolved     _npmOperationalInternal:
+60 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+60 silly install resolved        tmp: 'tmp/grunt-contrib-copy-1.0.0.tgz_1457124726949_0.22643410600721836' },
+60 silly install resolved     directories: {},
+60 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz' } ]
+61 info install grunt-contrib-copy@1.0.0 into /Users/pauljackson/Desktop/CAA-Geolocation-Static
+62 info installOne grunt-contrib-copy@1.0.0
+63 verbose installOne of grunt-contrib-copy to /Users/pauljackson/Desktop/CAA-Geolocation-Static not in flight; installing
+64 verbose lock using /Users/pauljackson/.npm/_locks/grunt-contrib-copy-d967e1240172b26c.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+65 silly install write writing grunt-contrib-copy 1.0.0 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+66 verbose unbuild node_modules/grunt-contrib-copy
+67 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+68 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+69 verbose tar unpack /Users/pauljackson/.npm/grunt-contrib-copy/1.0.0/package.tgz
+70 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+71 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy is being purged
+72 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+73 silly gunzTarPerm modes [ '755', '644' ]
+74 silly gunzTarPerm extractEntry package.json
+75 silly gunzTarPerm extractEntry README.md
+76 silly gunzTarPerm extractEntry CHANGELOG
+77 silly gunzTarPerm extractEntry tasks/copy.js
+78 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/package.json
+79 info preinstall grunt-contrib-copy@1.0.0
+80 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/package.json
+81 silly prepareForInstallMany adding chalk@^1.1.1 from grunt-contrib-copy dependencies
+82 silly prepareForInstallMany adding file-sync-cmp@^0.1.0 from grunt-contrib-copy dependencies
+83 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/package.json
+84 silly cache add args [ 'chalk@^1.1.1', null ]
+85 verbose cache add spec chalk@^1.1.1
+86 silly cache add args [ 'file-sync-cmp@^0.1.0', null ]
+87 verbose cache add spec file-sync-cmp@^0.1.0
+88 silly cache add parsed spec Result {
+88 silly cache add   raw: 'chalk@^1.1.1',
+88 silly cache add   scope: null,
+88 silly cache add   name: 'chalk',
+88 silly cache add   rawSpec: '^1.1.1',
+88 silly cache add   spec: '>=1.1.1 <2.0.0',
+88 silly cache add   type: 'range' }
+89 silly addNamed chalk@>=1.1.1 <2.0.0
+90 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for chalk
+91 silly addNameRange { name: 'chalk', range: '>=1.1.1 <2.0.0', hasData: false }
+92 silly mapToRegistry name chalk
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/chalk
+96 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+97 silly cache add parsed spec Result {
+97 silly cache add   raw: 'file-sync-cmp@^0.1.0',
+97 silly cache add   scope: null,
+97 silly cache add   name: 'file-sync-cmp',
+97 silly cache add   rawSpec: '^0.1.0',
+97 silly cache add   spec: '>=0.1.0 <0.2.0',
+97 silly cache add   type: 'range' }
+98 silly addNamed file-sync-cmp@>=0.1.0 <0.2.0
+99 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for file-sync-cmp
+100 silly addNameRange { name: 'file-sync-cmp',
+100 silly addNameRange   range: '>=0.1.0 <0.2.0',
+100 silly addNameRange   hasData: false }
+101 silly mapToRegistry name file-sync-cmp
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry uri https://registry.npmjs.org/file-sync-cmp
+105 verbose addNameRange registry:https://registry.npmjs.org/file-sync-cmp not in flight; fetching
+106 verbose request uri https://registry.npmjs.org/file-sync-cmp
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 10:12:35 PM
+109 http request GET https://registry.npmjs.org/file-sync-cmp
+110 verbose request uri https://registry.npmjs.org/chalk
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 10:12:35 PM
+113 verbose etag "ARTO7ZI9X4F66F3H58RK4YV6H"
+114 http request GET https://registry.npmjs.org/chalk
+115 http 304 https://registry.npmjs.org/chalk
+116 verbose headers { date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+116 verbose headers   via: '1.1 varnish',
+116 verbose headers   'cache-control': 'max-age=300',
+116 verbose headers   etag: '"ARTO7ZI9X4F66F3H58RK4YV6H"',
+116 verbose headers   age: '265',
+116 verbose headers   connection: 'keep-alive',
+116 verbose headers   'x-served-by': 'cache-lax1435-LAX',
+116 verbose headers   'x-cache': 'HIT',
+116 verbose headers   'x-cache-hits': '12',
+116 verbose headers   'x-timer': 'S1465189945.640086,VS0,VE0',
+116 verbose headers   vary: 'Accept-Encoding' }
+117 silly get cb [ 304,
+117 silly get   { date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+117 silly get     via: '1.1 varnish',
+117 silly get     'cache-control': 'max-age=300',
+117 silly get     etag: '"ARTO7ZI9X4F66F3H58RK4YV6H"',
+117 silly get     age: '265',
+117 silly get     connection: 'keep-alive',
+117 silly get     'x-served-by': 'cache-lax1435-LAX',
+117 silly get     'x-cache': 'HIT',
+117 silly get     'x-cache-hits': '12',
+117 silly get     'x-timer': 'S1465189945.640086,VS0,VE0',
+117 silly get     vary: 'Accept-Encoding' } ]
+118 verbose etag https://registry.npmjs.org/chalk from cache
+119 verbose get saving chalk to /Users/pauljackson/.npm/registry.npmjs.org/chalk/.cache.json
+120 http 200 https://registry.npmjs.org/file-sync-cmp
+121 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+121 verbose headers   etag: '"7NWSRDSAW0M781QIEMX5NYY63"',
+121 verbose headers   'content-type': 'application/json',
+121 verbose headers   'content-encoding': 'gzip',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   'content-length': '977',
+121 verbose headers   'accept-ranges': 'bytes',
+121 verbose headers   date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+121 verbose headers   via: '1.1 varnish',
+121 verbose headers   age: '51',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'x-served-by': 'cache-lax1439-LAX',
+121 verbose headers   'x-cache': 'HIT',
+121 verbose headers   'x-cache-hits': '1',
+121 verbose headers   'x-timer': 'S1465189945.638220,VS0,VE0',
+121 verbose headers   vary: 'Accept-Encoding' }
+122 silly get cb [ 200,
+122 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+122 silly get     etag: '"7NWSRDSAW0M781QIEMX5NYY63"',
+122 silly get     'content-type': 'application/json',
+122 silly get     'content-encoding': 'gzip',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     'content-length': '977',
+122 silly get     'accept-ranges': 'bytes',
+122 silly get     date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+122 silly get     via: '1.1 varnish',
+122 silly get     age: '51',
+122 silly get     connection: 'keep-alive',
+122 silly get     'x-served-by': 'cache-lax1439-LAX',
+122 silly get     'x-cache': 'HIT',
+122 silly get     'x-cache-hits': '1',
+122 silly get     'x-timer': 'S1465189945.638220,VS0,VE0',
+122 silly get     vary: 'Accept-Encoding' } ]
+123 verbose get saving file-sync-cmp to /Users/pauljackson/.npm/registry.npmjs.org/file-sync-cmp/.cache.json
+124 silly addNameRange number 2 { name: 'chalk', range: '>=1.1.1 <2.0.0', hasData: true }
+125 silly addNameRange versions [ 'chalk',
+125 silly addNameRange   [ '0.1.0',
+125 silly addNameRange     '0.1.1',
+125 silly addNameRange     '0.2.0',
+125 silly addNameRange     '0.2.1',
+125 silly addNameRange     '0.3.0',
+125 silly addNameRange     '0.4.0',
+125 silly addNameRange     '0.5.0',
+125 silly addNameRange     '0.5.1',
+125 silly addNameRange     '1.0.0',
+125 silly addNameRange     '1.1.0',
+125 silly addNameRange     '1.1.1',
+125 silly addNameRange     '1.1.2',
+125 silly addNameRange     '1.1.3' ] ]
+126 silly addNamed chalk@1.1.3
+127 verbose addNamed "1.1.3" is a plain semver version for chalk
+128 silly addNameRange number 2 { name: 'file-sync-cmp', range: '>=0.1.0 <0.2.0', hasData: true }
+129 silly addNameRange versions [ 'file-sync-cmp', [ '0.1.0', '0.1.1' ] ]
+130 silly addNamed file-sync-cmp@0.1.1
+131 verbose addNamed "0.1.1" is a plain semver version for file-sync-cmp
+132 silly mapToRegistry name file-sync-cmp
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry uri https://registry.npmjs.org/file-sync-cmp
+136 verbose addRemoteTarball https://registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz not in flight; adding
+137 verbose addRemoteTarball [ 'https://registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz',
+137 verbose addRemoteTarball   'a5e7a8ffbfa493b43b923bbd4ca89a53b63b612b' ]
+138 info retry fetch attempt 1 at 10:12:35 PM
+139 info attempt registry request try #1 at 10:12:35 PM
+140 http fetch GET https://registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz
+141 silly cache afterAdd chalk@1.1.3
+142 verbose afterAdd /Users/pauljackson/.npm/chalk/1.1.3/package/package.json not in flight; writing
+143 verbose afterAdd /Users/pauljackson/.npm/chalk/1.1.3/package/package.json written
+144 http fetch 200 https://registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz
+145 silly fetchAndShaCheck shasum a5e7a8ffbfa493b43b923bbd4ca89a53b63b612b
+146 verbose addTmpTarball /var/folders/7n/4khqt2p91f30_ct266r0yznc0000gn/T/npm-5595-ee3c88e8/registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz not in flight; adding
+147 verbose addTmpTarball already have metadata; skipping unpack for file-sync-cmp@0.1.1
+148 silly cache afterAdd file-sync-cmp@0.1.1
+149 verbose afterAdd /Users/pauljackson/.npm/file-sync-cmp/0.1.1/package/package.json not in flight; writing
+150 verbose afterAdd /Users/pauljackson/.npm/file-sync-cmp/0.1.1/package/package.json written
+151 silly install resolved [ { name: 'chalk',
+151 silly install resolved     version: '1.1.3',
+151 silly install resolved     description: 'Terminal string styling done right. Much color.',
+151 silly install resolved     license: 'MIT',
+151 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/chalk/chalk.git' },
+151 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+151 silly install resolved     engines: { node: '>=0.10.0' },
+151 silly install resolved     scripts:
+151 silly install resolved      { test: 'xo && mocha',
+151 silly install resolved        bench: 'matcha benchmark.js',
+151 silly install resolved        coverage: 'nyc npm test && nyc report',
+151 silly install resolved        coveralls: 'nyc npm test && nyc report --reporter=text-lcov | coveralls' },
+151 silly install resolved     files: [ 'index.js' ],
+151 silly install resolved     keywords:
+151 silly install resolved      [ 'color',
+151 silly install resolved        'colour',
+151 silly install resolved        'colors',
+151 silly install resolved        'terminal',
+151 silly install resolved        'console',
+151 silly install resolved        'cli',
+151 silly install resolved        'string',
+151 silly install resolved        'str',
+151 silly install resolved        'ansi',
+151 silly install resolved        'style',
+151 silly install resolved        'styles',
+151 silly install resolved        'tty',
+151 silly install resolved        'formatting',
+151 silly install resolved        'rgb',
+151 silly install resolved        '256',
+151 silly install resolved        'shell',
+151 silly install resolved        'xterm',
+151 silly install resolved        'log',
+151 silly install resolved        'logging',
+151 silly install resolved        'command-line',
+151 silly install resolved        'text' ],
+151 silly install resolved     dependencies:
+151 silly install resolved      { 'ansi-styles': '^2.2.1',
+151 silly install resolved        'escape-string-regexp': '^1.0.2',
+151 silly install resolved        'has-ansi': '^2.0.0',
+151 silly install resolved        'strip-ansi': '^3.0.0',
+151 silly install resolved        'supports-color': '^2.0.0' },
+151 silly install resolved     devDependencies:
+151 silly install resolved      { coveralls: '^2.11.2',
+151 silly install resolved        matcha: '^0.6.0',
+151 silly install resolved        mocha: '*',
+151 silly install resolved        nyc: '^3.0.0',
+151 silly install resolved        'require-uncached': '^1.0.2',
+151 silly install resolved        'resolve-from': '^1.0.0',
+151 silly install resolved        semver: '^4.3.3',
+151 silly install resolved        xo: '*' },
+151 silly install resolved     xo: { envs: [Object] },
+151 silly install resolved     gitHead: '0d8d8c204eb87a4038219131ad4d8369c9f59d24',
+151 silly install resolved     bugs: { url: 'https://github.com/chalk/chalk/issues' },
+151 silly install resolved     homepage: 'https://github.com/chalk/chalk#readme',
+151 silly install resolved     _id: 'chalk@1.1.3',
+151 silly install resolved     _shasum: 'a8115c55e4a702fe4d150abd3872822a7e09fc98',
+151 silly install resolved     _from: 'chalk@>=1.1.1 <2.0.0',
+151 silly install resolved     _npmVersion: '2.14.2',
+151 silly install resolved     _nodeVersion: '0.10.32',
+151 silly install resolved     _npmUser: { name: 'qix', email: 'i.am.qix@gmail.com' },
+151 silly install resolved     dist:
+151 silly install resolved      { shasum: 'a8115c55e4a702fe4d150abd3872822a7e09fc98',
+151 silly install resolved        tarball: 'https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz' },
+151 silly install resolved     _npmOperationalInternal:
+151 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+151 silly install resolved        tmp: 'tmp/chalk-1.1.3.tgz_1459210604109_0.3892582862172276' },
+151 silly install resolved     directories: {},
+151 silly install resolved     _resolved: 'https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz',
+151 silly install resolved     readme: 'ERROR: No README data found!' },
+151 silly install resolved   { name: 'file-sync-cmp',
+151 silly install resolved     version: '0.1.1',
+151 silly install resolved     description: 'Synchronous file comparison',
+151 silly install resolved     main: 'index.js',
+151 silly install resolved     homepage: 'https://github.com/mgeisler/file-sync-cmp/',
+151 silly install resolved     repository:
+151 silly install resolved      { type: 'git',
+151 silly install resolved        url: 'https://github.com/mgeisler/file-sync-cmp.git' },
+151 silly install resolved     keywords: [ 'comparison' ],
+151 silly install resolved     author:
+151 silly install resolved      { name: 'Martin Geisler',
+151 silly install resolved        email: 'martin@geisler.net',
+151 silly install resolved        url: 'http://geisler.net/' },
+151 silly install resolved     license: 'MIT',
+151 silly install resolved     bugs: { url: 'https://github.com/mgeisler/file-sync-cmp/issues' },
+151 silly install resolved     devDependencies: { eslint: '0.10.1', mocha: '2.0.1', q: '1.1.2', tmp: '0.0.24' },
+151 silly install resolved     scripts: { test: 'eslint . && mocha' },
+151 silly install resolved     gitHead: '1cf1e51b84378e702e21330213f5bed7b1e3ab79',
+151 silly install resolved     _id: 'file-sync-cmp@0.1.1',
+151 silly install resolved     _shasum: 'a5e7a8ffbfa493b43b923bbd4ca89a53b63b612b',
+151 silly install resolved     _from: 'file-sync-cmp@>=0.1.0 <0.2.0',
+151 silly install resolved     _npmVersion: '1.4.21',
+151 silly install resolved     _npmUser: { name: 'mgeisler', email: 'martin@geisler.net' },
+151 silly install resolved     maintainers: [ [Object] ],
+151 silly install resolved     dist:
+151 silly install resolved      { shasum: 'a5e7a8ffbfa493b43b923bbd4ca89a53b63b612b',
+151 silly install resolved        tarball: 'https://registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz' },
+151 silly install resolved     directories: {},
+151 silly install resolved     _resolved: 'https://registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz' } ]
+152 info install chalk@1.1.3 into /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+153 info install file-sync-cmp@0.1.1 into /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+154 info installOne chalk@1.1.3
+155 verbose installOne of chalk to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy not in flight; installing
+156 info installOne file-sync-cmp@0.1.1
+157 verbose installOne of file-sync-cmp to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy not in flight; installing
+158 verbose lock using /Users/pauljackson/.npm/_locks/chalk-0397036a37416484.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+159 verbose lock using /Users/pauljackson/.npm/_locks/file-sync-cmp-9a361b542dce996c.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+160 silly install write writing chalk 1.1.3 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+161 silly install write writing file-sync-cmp 0.1.1 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+162 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk
+163 verbose unbuild node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+164 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+165 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+166 verbose tar unpack /Users/pauljackson/.npm/chalk/1.1.3/package.tgz
+167 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+168 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk is being purged
+169 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+170 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+171 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+172 silly gunzTarPerm modes [ '755', '644' ]
+173 verbose tar unpack /Users/pauljackson/.npm/file-sync-cmp/0.1.1/package.tgz
+174 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+175 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp is being purged
+176 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+177 silly gunzTarPerm modes [ '755', '644' ]
+178 silly gunzTarPerm extractEntry package.json
+179 silly gunzTarPerm extractEntry package.json
+180 silly gunzTarPerm extractEntry index.js
+181 silly gunzTarPerm extractEntry license
+182 silly gunzTarPerm extractEntry .npmignore
+183 silly gunzTarPerm extractEntry README.md
+184 silly gunzTarPerm extractEntry LICENSE
+185 silly gunzTarPerm extractEntry index.js
+186 silly gunzTarPerm extractEntry readme.md
+187 silly gunzTarPerm extractEntry .eslintrc
+188 silly gunzTarPerm extractEntry .travis.yml
+189 silly gunzTarPerm extractEntry test/test.js
+190 silly gunzTarPerm extractEntry test/.eslintrc
+191 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/package.json
+192 info preinstall chalk@1.1.3
+193 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/package.json
+194 silly prepareForInstallMany adding ansi-styles@^2.2.1 from chalk dependencies
+195 silly prepareForInstallMany adding escape-string-regexp@^1.0.2 from chalk dependencies
+196 silly prepareForInstallMany adding has-ansi@^2.0.0 from chalk dependencies
+197 silly prepareForInstallMany adding strip-ansi@^3.0.0 from chalk dependencies
+198 silly prepareForInstallMany adding supports-color@^2.0.0 from chalk dependencies
+199 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/package.json
+200 silly cache add args [ 'escape-string-regexp@^1.0.2', null ]
+201 verbose cache add spec escape-string-regexp@^1.0.2
+202 silly cache add parsed spec Result {
+202 silly cache add   raw: 'escape-string-regexp@^1.0.2',
+202 silly cache add   scope: null,
+202 silly cache add   name: 'escape-string-regexp',
+202 silly cache add   rawSpec: '^1.0.2',
+202 silly cache add   spec: '>=1.0.2 <2.0.0',
+202 silly cache add   type: 'range' }
+203 silly addNamed escape-string-regexp@>=1.0.2 <2.0.0
+204 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for escape-string-regexp
+205 silly addNameRange { name: 'escape-string-regexp',
+205 silly addNameRange   range: '>=1.0.2 <2.0.0',
+205 silly addNameRange   hasData: false }
+206 silly mapToRegistry name escape-string-regexp
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+210 verbose addNameRange registry:https://registry.npmjs.org/escape-string-regexp not in flight; fetching
+211 silly cache add args [ 'has-ansi@^2.0.0', null ]
+212 verbose cache add spec has-ansi@^2.0.0
+213 silly cache add parsed spec Result {
+213 silly cache add   raw: 'has-ansi@^2.0.0',
+213 silly cache add   scope: null,
+213 silly cache add   name: 'has-ansi',
+213 silly cache add   rawSpec: '^2.0.0',
+213 silly cache add   spec: '>=2.0.0 <3.0.0',
+213 silly cache add   type: 'range' }
+214 silly addNamed has-ansi@>=2.0.0 <3.0.0
+215 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for has-ansi
+216 silly addNameRange { name: 'has-ansi', range: '>=2.0.0 <3.0.0', hasData: false }
+217 silly mapToRegistry name has-ansi
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry uri https://registry.npmjs.org/has-ansi
+221 verbose addNameRange registry:https://registry.npmjs.org/has-ansi not in flight; fetching
+222 silly cache add args [ 'strip-ansi@^3.0.0', null ]
+223 verbose cache add spec strip-ansi@^3.0.0
+224 silly cache add parsed spec Result {
+224 silly cache add   raw: 'strip-ansi@^3.0.0',
+224 silly cache add   scope: null,
+224 silly cache add   name: 'strip-ansi',
+224 silly cache add   rawSpec: '^3.0.0',
+224 silly cache add   spec: '>=3.0.0 <4.0.0',
+224 silly cache add   type: 'range' }
+225 silly addNamed strip-ansi@>=3.0.0 <4.0.0
+226 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for strip-ansi
+227 silly addNameRange { name: 'strip-ansi', range: '>=3.0.0 <4.0.0', hasData: false }
+228 silly mapToRegistry name strip-ansi
+229 silly mapToRegistry using default registry
+230 silly mapToRegistry registry https://registry.npmjs.org/
+231 silly mapToRegistry uri https://registry.npmjs.org/strip-ansi
+232 verbose addNameRange registry:https://registry.npmjs.org/strip-ansi not in flight; fetching
+233 silly cache add args [ 'supports-color@^2.0.0', null ]
+234 verbose cache add spec supports-color@^2.0.0
+235 silly cache add parsed spec Result {
+235 silly cache add   raw: 'supports-color@^2.0.0',
+235 silly cache add   scope: null,
+235 silly cache add   name: 'supports-color',
+235 silly cache add   rawSpec: '^2.0.0',
+235 silly cache add   spec: '>=2.0.0 <3.0.0',
+235 silly cache add   type: 'range' }
+236 silly addNamed supports-color@>=2.0.0 <3.0.0
+237 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for supports-color
+238 silly addNameRange { name: 'supports-color',
+238 silly addNameRange   range: '>=2.0.0 <3.0.0',
+238 silly addNameRange   hasData: false }
+239 silly mapToRegistry name supports-color
+240 silly mapToRegistry using default registry
+241 silly mapToRegistry registry https://registry.npmjs.org/
+242 silly mapToRegistry uri https://registry.npmjs.org/supports-color
+243 verbose addNameRange registry:https://registry.npmjs.org/supports-color not in flight; fetching
+244 silly cache add args [ 'ansi-styles@^2.2.1', null ]
+245 verbose cache add spec ansi-styles@^2.2.1
+246 silly cache add parsed spec Result {
+246 silly cache add   raw: 'ansi-styles@^2.2.1',
+246 silly cache add   scope: null,
+246 silly cache add   name: 'ansi-styles',
+246 silly cache add   rawSpec: '^2.2.1',
+246 silly cache add   spec: '>=2.2.1 <3.0.0',
+246 silly cache add   type: 'range' }
+247 silly addNamed ansi-styles@>=2.2.1 <3.0.0
+248 verbose addNamed ">=2.2.1 <3.0.0" is a valid semver range for ansi-styles
+249 silly addNameRange { name: 'ansi-styles', range: '>=2.2.1 <3.0.0', hasData: false }
+250 silly mapToRegistry name ansi-styles
+251 silly mapToRegistry using default registry
+252 silly mapToRegistry registry https://registry.npmjs.org/
+253 silly mapToRegistry uri https://registry.npmjs.org/ansi-styles
+254 verbose addNameRange registry:https://registry.npmjs.org/ansi-styles not in flight; fetching
+255 verbose request uri https://registry.npmjs.org/escape-string-regexp
+256 verbose request no auth needed
+257 info attempt registry request try #1 at 10:12:35 PM
+258 verbose etag "5BOOA1E0JTGLZ5WZEY9GYNT7"
+259 http request GET https://registry.npmjs.org/escape-string-regexp
+260 verbose request uri https://registry.npmjs.org/supports-color
+261 verbose request no auth needed
+262 info attempt registry request try #1 at 10:12:35 PM
+263 verbose etag "87VJAKWYUF4A2G4LCQKH55FZE"
+264 http request GET https://registry.npmjs.org/supports-color
+265 verbose request uri https://registry.npmjs.org/has-ansi
+266 verbose request no auth needed
+267 info attempt registry request try #1 at 10:12:35 PM
+268 verbose etag "77RC5VH1JZEES3ITVGL8FEZTF"
+269 http request GET https://registry.npmjs.org/has-ansi
+270 verbose request uri https://registry.npmjs.org/strip-ansi
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 10:12:35 PM
+273 verbose etag "B6TG8P0JRVWX1Y3QTWOIVFFNQ"
+274 http request GET https://registry.npmjs.org/strip-ansi
+275 verbose request uri https://registry.npmjs.org/ansi-styles
+276 verbose request no auth needed
+277 info attempt registry request try #1 at 10:12:35 PM
+278 verbose etag "2S43S9IH54YQSFIO0BL7CTRUF"
+279 http request GET https://registry.npmjs.org/ansi-styles
+280 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp/package.json
+281 info preinstall file-sync-cmp@0.1.1
+282 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp/package.json
+283 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp/package.json
+284 silly install resolved []
+285 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+286 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+287 info linkStuff file-sync-cmp@0.1.1
+288 silly linkStuff file-sync-cmp@0.1.1 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules as its parent node_modules
+289 verbose linkBins file-sync-cmp@0.1.1
+290 verbose linkMans file-sync-cmp@0.1.1
+291 verbose rebuildBundles file-sync-cmp@0.1.1
+292 info install file-sync-cmp@0.1.1
+293 info postinstall file-sync-cmp@0.1.1
+294 verbose unlock done using /Users/pauljackson/.npm/_locks/file-sync-cmp-9a361b542dce996c.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+295 http 304 https://registry.npmjs.org/supports-color
+296 verbose headers { date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+296 verbose headers   via: '1.1 varnish',
+296 verbose headers   'cache-control': 'max-age=300',
+296 verbose headers   etag: '"87VJAKWYUF4A2G4LCQKH55FZE"',
+296 verbose headers   age: '208',
+296 verbose headers   connection: 'keep-alive',
+296 verbose headers   'x-served-by': 'cache-lax1432-LAX',
+296 verbose headers   'x-cache': 'HIT',
+296 verbose headers   'x-cache-hits': '9',
+296 verbose headers   'x-timer': 'S1465189945.898765,VS0,VE0',
+296 verbose headers   vary: 'Accept-Encoding' }
+297 silly get cb [ 304,
+297 silly get   { date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+297 silly get     via: '1.1 varnish',
+297 silly get     'cache-control': 'max-age=300',
+297 silly get     etag: '"87VJAKWYUF4A2G4LCQKH55FZE"',
+297 silly get     age: '208',
+297 silly get     connection: 'keep-alive',
+297 silly get     'x-served-by': 'cache-lax1432-LAX',
+297 silly get     'x-cache': 'HIT',
+297 silly get     'x-cache-hits': '9',
+297 silly get     'x-timer': 'S1465189945.898765,VS0,VE0',
+297 silly get     vary: 'Accept-Encoding' } ]
+298 verbose etag https://registry.npmjs.org/supports-color from cache
+299 verbose get saving supports-color to /Users/pauljackson/.npm/registry.npmjs.org/supports-color/.cache.json
+300 http 304 https://registry.npmjs.org/strip-ansi
+301 verbose headers { date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+301 verbose headers   via: '1.1 varnish',
+301 verbose headers   'cache-control': 'max-age=300',
+301 verbose headers   etag: '"B6TG8P0JRVWX1Y3QTWOIVFFNQ"',
+301 verbose headers   age: '101',
+301 verbose headers   connection: 'keep-alive',
+301 verbose headers   'x-served-by': 'cache-lax1443-LAX',
+301 verbose headers   'x-cache': 'HIT',
+301 verbose headers   'x-cache-hits': '4',
+301 verbose headers   'x-timer': 'S1465189945.905428,VS0,VE0',
+301 verbose headers   vary: 'Accept-Encoding' }
+302 silly get cb [ 304,
+302 silly get   { date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+302 silly get     via: '1.1 varnish',
+302 silly get     'cache-control': 'max-age=300',
+302 silly get     etag: '"B6TG8P0JRVWX1Y3QTWOIVFFNQ"',
+302 silly get     age: '101',
+302 silly get     connection: 'keep-alive',
+302 silly get     'x-served-by': 'cache-lax1443-LAX',
+302 silly get     'x-cache': 'HIT',
+302 silly get     'x-cache-hits': '4',
+302 silly get     'x-timer': 'S1465189945.905428,VS0,VE0',
+302 silly get     vary: 'Accept-Encoding' } ]
+303 verbose etag https://registry.npmjs.org/strip-ansi from cache
+304 verbose get saving strip-ansi to /Users/pauljackson/.npm/registry.npmjs.org/strip-ansi/.cache.json
+305 http 200 https://registry.npmjs.org/escape-string-regexp
+306 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+306 verbose headers   etag: '"6KTGFS9RIPM29TUJQ6RDLQRVA"',
+306 verbose headers   'content-type': 'application/json',
+306 verbose headers   'content-encoding': 'gzip',
+306 verbose headers   'cache-control': 'max-age=300',
+306 verbose headers   'content-length': '1913',
+306 verbose headers   'accept-ranges': 'bytes',
+306 verbose headers   date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+306 verbose headers   via: '1.1 varnish',
+306 verbose headers   age: '262',
+306 verbose headers   connection: 'keep-alive',
+306 verbose headers   'x-served-by': 'cache-lax1435-LAX',
+306 verbose headers   'x-cache': 'HIT',
+306 verbose headers   'x-cache-hits': '10',
+306 verbose headers   'x-timer': 'S1465189945.904983,VS0,VE0',
+306 verbose headers   vary: 'Accept-Encoding' }
+307 silly get cb [ 200,
+307 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+307 silly get     etag: '"6KTGFS9RIPM29TUJQ6RDLQRVA"',
+307 silly get     'content-type': 'application/json',
+307 silly get     'content-encoding': 'gzip',
+307 silly get     'cache-control': 'max-age=300',
+307 silly get     'content-length': '1913',
+307 silly get     'accept-ranges': 'bytes',
+307 silly get     date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+307 silly get     via: '1.1 varnish',
+307 silly get     age: '262',
+307 silly get     connection: 'keep-alive',
+307 silly get     'x-served-by': 'cache-lax1435-LAX',
+307 silly get     'x-cache': 'HIT',
+307 silly get     'x-cache-hits': '10',
+307 silly get     'x-timer': 'S1465189945.904983,VS0,VE0',
+307 silly get     vary: 'Accept-Encoding' } ]
+308 verbose get saving escape-string-regexp to /Users/pauljackson/.npm/registry.npmjs.org/escape-string-regexp/.cache.json
+309 silly addNameRange number 2 { name: 'supports-color',
+309 silly addNameRange   range: '>=2.0.0 <3.0.0',
+309 silly addNameRange   hasData: true }
+310 silly addNameRange versions [ 'supports-color',
+310 silly addNameRange   [ '0.2.0',
+310 silly addNameRange     '1.0.0',
+310 silly addNameRange     '1.1.0',
+310 silly addNameRange     '1.2.0',
+310 silly addNameRange     '1.2.1',
+310 silly addNameRange     '1.3.0',
+310 silly addNameRange     '1.3.1',
+310 silly addNameRange     '2.0.0',
+310 silly addNameRange     '3.0.0',
+310 silly addNameRange     '3.0.1',
+310 silly addNameRange     '3.1.0',
+310 silly addNameRange     '3.1.1',
+310 silly addNameRange     '3.1.2' ] ]
+311 silly addNamed supports-color@2.0.0
+312 verbose addNamed "2.0.0" is a plain semver version for supports-color
+313 silly addNameRange number 2 { name: 'strip-ansi', range: '>=3.0.0 <4.0.0', hasData: true }
+314 silly addNameRange versions [ 'strip-ansi',
+314 silly addNameRange   [ '0.1.0',
+314 silly addNameRange     '0.1.1',
+314 silly addNameRange     '0.2.0',
+314 silly addNameRange     '0.2.1',
+314 silly addNameRange     '0.2.2',
+314 silly addNameRange     '0.3.0',
+314 silly addNameRange     '1.0.0',
+314 silly addNameRange     '2.0.0',
+314 silly addNameRange     '2.0.1',
+314 silly addNameRange     '3.0.0',
+314 silly addNameRange     '3.0.1' ] ]
+315 silly addNamed strip-ansi@3.0.1
+316 verbose addNamed "3.0.1" is a plain semver version for strip-ansi
+317 silly cache afterAdd supports-color@2.0.0
+318 verbose afterAdd /Users/pauljackson/.npm/supports-color/2.0.0/package/package.json not in flight; writing
+319 silly addNameRange number 2 { name: 'escape-string-regexp',
+319 silly addNameRange   range: '>=1.0.2 <2.0.0',
+319 silly addNameRange   hasData: true }
+320 silly addNameRange versions [ 'escape-string-regexp',
+320 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5' ] ]
+321 silly addNamed escape-string-regexp@1.0.5
+322 verbose addNamed "1.0.5" is a plain semver version for escape-string-regexp
+323 verbose afterAdd /Users/pauljackson/.npm/supports-color/2.0.0/package/package.json written
+324 silly cache afterAdd strip-ansi@3.0.1
+325 verbose afterAdd /Users/pauljackson/.npm/strip-ansi/3.0.1/package/package.json not in flight; writing
+326 silly cache afterAdd escape-string-regexp@1.0.5
+327 verbose afterAdd /Users/pauljackson/.npm/escape-string-regexp/1.0.5/package/package.json not in flight; writing
+328 http 200 https://registry.npmjs.org/has-ansi
+329 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+329 verbose headers   etag: '"5BRJ6SWTFTG3PC77WJMU0S9MB"',
+329 verbose headers   'content-type': 'application/json',
+329 verbose headers   'content-encoding': 'gzip',
+329 verbose headers   'cache-control': 'max-age=300',
+329 verbose headers   'content-length': '2093',
+329 verbose headers   'accept-ranges': 'bytes',
+329 verbose headers   date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+329 verbose headers   via: '1.1 varnish',
+329 verbose headers   age: '262',
+329 verbose headers   connection: 'keep-alive',
+329 verbose headers   'x-served-by': 'cache-lax1423-LAX',
+329 verbose headers   'x-cache': 'HIT',
+329 verbose headers   'x-cache-hits': '7',
+329 verbose headers   'x-timer': 'S1465189945.911594,VS0,VE0',
+329 verbose headers   vary: 'Accept-Encoding' }
+330 silly get cb [ 200,
+330 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+330 silly get     etag: '"5BRJ6SWTFTG3PC77WJMU0S9MB"',
+330 silly get     'content-type': 'application/json',
+330 silly get     'content-encoding': 'gzip',
+330 silly get     'cache-control': 'max-age=300',
+330 silly get     'content-length': '2093',
+330 silly get     'accept-ranges': 'bytes',
+330 silly get     date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+330 silly get     via: '1.1 varnish',
+330 silly get     age: '262',
+330 silly get     connection: 'keep-alive',
+330 silly get     'x-served-by': 'cache-lax1423-LAX',
+330 silly get     'x-cache': 'HIT',
+330 silly get     'x-cache-hits': '7',
+330 silly get     'x-timer': 'S1465189945.911594,VS0,VE0',
+330 silly get     vary: 'Accept-Encoding' } ]
+331 verbose get saving has-ansi to /Users/pauljackson/.npm/registry.npmjs.org/has-ansi/.cache.json
+332 verbose afterAdd /Users/pauljackson/.npm/escape-string-regexp/1.0.5/package/package.json written
+333 verbose afterAdd /Users/pauljackson/.npm/strip-ansi/3.0.1/package/package.json written
+334 silly addNameRange number 2 { name: 'has-ansi', range: '>=2.0.0 <3.0.0', hasData: true }
+335 silly addNameRange versions [ 'has-ansi',
+335 silly addNameRange   [ '0.1.0', '1.0.0', '1.0.1', '1.0.2', '1.0.3', '2.0.0' ] ]
+336 silly addNamed has-ansi@2.0.0
+337 verbose addNamed "2.0.0" is a plain semver version for has-ansi
+338 silly cache afterAdd has-ansi@2.0.0
+339 verbose afterAdd /Users/pauljackson/.npm/has-ansi/2.0.0/package/package.json not in flight; writing
+340 verbose afterAdd /Users/pauljackson/.npm/has-ansi/2.0.0/package/package.json written
+341 http 304 https://registry.npmjs.org/ansi-styles
+342 verbose headers { date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+342 verbose headers   via: '1.1 varnish',
+342 verbose headers   'cache-control': 'max-age=300',
+342 verbose headers   etag: '"2S43S9IH54YQSFIO0BL7CTRUF"',
+342 verbose headers   age: '150',
+342 verbose headers   connection: 'keep-alive',
+342 verbose headers   'x-served-by': 'cache-lax1430-LAX',
+342 verbose headers   'x-cache': 'HIT',
+342 verbose headers   'x-cache-hits': '4',
+342 verbose headers   'x-timer': 'S1465189945.923192,VS0,VE0',
+342 verbose headers   vary: 'Accept-Encoding' }
+343 silly get cb [ 304,
+343 silly get   { date: 'Mon, 06 Jun 2016 05:12:25 GMT',
+343 silly get     via: '1.1 varnish',
+343 silly get     'cache-control': 'max-age=300',
+343 silly get     etag: '"2S43S9IH54YQSFIO0BL7CTRUF"',
+343 silly get     age: '150',
+343 silly get     connection: 'keep-alive',
+343 silly get     'x-served-by': 'cache-lax1430-LAX',
+343 silly get     'x-cache': 'HIT',
+343 silly get     'x-cache-hits': '4',
+343 silly get     'x-timer': 'S1465189945.923192,VS0,VE0',
+343 silly get     vary: 'Accept-Encoding' } ]
+344 verbose etag https://registry.npmjs.org/ansi-styles from cache
+345 verbose get saving ansi-styles to /Users/pauljackson/.npm/registry.npmjs.org/ansi-styles/.cache.json
+346 silly addNameRange number 2 { name: 'ansi-styles', range: '>=2.2.1 <3.0.0', hasData: true }
+347 silly addNameRange versions [ 'ansi-styles',
+347 silly addNameRange   [ '0.1.0',
+347 silly addNameRange     '0.1.1',
+347 silly addNameRange     '0.1.2',
+347 silly addNameRange     '0.2.0',
+347 silly addNameRange     '1.0.0',
+347 silly addNameRange     '1.1.0',
+347 silly addNameRange     '2.0.0',
+347 silly addNameRange     '2.0.1',
+347 silly addNameRange     '2.1.0',
+347 silly addNameRange     '2.2.1' ] ]
+348 silly addNamed ansi-styles@2.2.1
+349 verbose addNamed "2.2.1" is a plain semver version for ansi-styles
+350 silly cache afterAdd ansi-styles@2.2.1
+351 verbose afterAdd /Users/pauljackson/.npm/ansi-styles/2.2.1/package/package.json not in flight; writing
+352 verbose afterAdd /Users/pauljackson/.npm/ansi-styles/2.2.1/package/package.json written
+353 silly install resolved [ { name: 'supports-color',
+353 silly install resolved     version: '2.0.0',
+353 silly install resolved     description: 'Detect whether a terminal supports color',
+353 silly install resolved     license: 'MIT',
+353 silly install resolved     repository:
+353 silly install resolved      { type: 'git',
+353 silly install resolved        url: 'git+https://github.com/chalk/supports-color.git' },
+353 silly install resolved     author:
+353 silly install resolved      { name: 'Sindre Sorhus',
+353 silly install resolved        email: 'sindresorhus@gmail.com',
+353 silly install resolved        url: 'sindresorhus.com' },
+353 silly install resolved     maintainers: [ [Object], [Object] ],
+353 silly install resolved     engines: { node: '>=0.8.0' },
+353 silly install resolved     scripts: { test: 'mocha' },
+353 silly install resolved     files: [ 'index.js' ],
+353 silly install resolved     keywords:
+353 silly install resolved      [ 'color',
+353 silly install resolved        'colour',
+353 silly install resolved        'colors',
+353 silly install resolved        'terminal',
+353 silly install resolved        'console',
+353 silly install resolved        'cli',
+353 silly install resolved        'ansi',
+353 silly install resolved        'styles',
+353 silly install resolved        'tty',
+353 silly install resolved        'rgb',
+353 silly install resolved        '256',
+353 silly install resolved        'shell',
+353 silly install resolved        'xterm',
+353 silly install resolved        'command-line',
+353 silly install resolved        'support',
+353 silly install resolved        'supports',
+353 silly install resolved        'capability',
+353 silly install resolved        'detect' ],
+353 silly install resolved     devDependencies: { mocha: '*', 'require-uncached': '^1.0.2' },
+353 silly install resolved     gitHead: '8400d98ade32b2adffd50902c06d9e725a5c6588',
+353 silly install resolved     bugs: { url: 'https://github.com/chalk/supports-color/issues' },
+353 silly install resolved     homepage: 'https://github.com/chalk/supports-color',
+353 silly install resolved     _id: 'supports-color@2.0.0',
+353 silly install resolved     _shasum: '535d045ce6b6363fa40117084629995e9df324c7',
+353 silly install resolved     _from: 'supports-color@>=2.0.0 <3.0.0',
+353 silly install resolved     _npmVersion: '2.11.2',
+353 silly install resolved     _nodeVersion: '0.12.5',
+353 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+353 silly install resolved     dist:
+353 silly install resolved      { shasum: '535d045ce6b6363fa40117084629995e9df324c7',
+353 silly install resolved        tarball: 'http://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz' },
+353 silly install resolved     directories: {},
+353 silly install resolved     _resolved: 'https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz',
+353 silly install resolved     readme: 'ERROR: No README data found!' },
+353 silly install resolved   { name: 'escape-string-regexp',
+353 silly install resolved     version: '1.0.5',
+353 silly install resolved     description: 'Escape RegExp special characters',
+353 silly install resolved     license: 'MIT',
+353 silly install resolved     repository:
+353 silly install resolved      { type: 'git',
+353 silly install resolved        url: 'git+https://github.com/sindresorhus/escape-string-regexp.git' },
+353 silly install resolved     author:
+353 silly install resolved      { name: 'Sindre Sorhus',
+353 silly install resolved        email: 'sindresorhus@gmail.com',
+353 silly install resolved        url: 'sindresorhus.com' },
+353 silly install resolved     maintainers: [ [Object], [Object] ],
+353 silly install resolved     engines: { node: '>=0.8.0' },
+353 silly install resolved     scripts: { test: 'xo && ava' },
+353 silly install resolved     files: [ 'index.js' ],
+353 silly install resolved     keywords:
+353 silly install resolved      [ 'escape',
+353 silly install resolved        'regex',
+353 silly install resolved        'regexp',
+353 silly install resolved        're',
+353 silly install resolved        'regular',
+353 silly install resolved        'expression',
+353 silly install resolved        'string',
+353 silly install resolved        'str',
+353 silly install resolved        'special',
+353 silly install resolved        'characters' ],
+353 silly install resolved     devDependencies: { ava: '*', xo: '*' },
+353 silly install resolved     gitHead: 'db124a3e1aae9d692c4899e42a5c6c3e329eaa20',
+353 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/escape-string-regexp/issues' },
+353 silly install resolved     homepage: 'https://github.com/sindresorhus/escape-string-regexp',
+353 silly install resolved     _id: 'escape-string-regexp@1.0.5',
+353 silly install resolved     _shasum: '1b61c0562190a8dff6ae3bb2cf0200ca130b86d4',
+353 silly install resolved     _from: 'escape-string-regexp@>=1.0.2 <2.0.0',
+353 silly install resolved     _npmVersion: '2.14.12',
+353 silly install resolved     _nodeVersion: '4.2.6',
+353 silly install resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+353 silly install resolved     dist:
+353 silly install resolved      { shasum: '1b61c0562190a8dff6ae3bb2cf0200ca130b86d4',
+353 silly install resolved        tarball: 'http://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz' },
+353 silly install resolved     _npmOperationalInternal:
+353 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+353 silly install resolved        tmp: 'tmp/escape-string-regexp-1.0.5.tgz_1456059312074_0.7245344955008477' },
+353 silly install resolved     directories: {},
+353 silly install resolved     _resolved: 'https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz',
+353 silly install resolved     readme: 'ERROR: No README data found!' },
+353 silly install resolved   { name: 'strip-ansi',
+353 silly install resolved     version: '3.0.1',
+353 silly install resolved     description: 'Strip ANSI escape codes',
+353 silly install resolved     license: 'MIT',
+353 silly install resolved     repository:
+353 silly install resolved      { type: 'git',
+353 silly install resolved        url: 'git+https://github.com/chalk/strip-ansi.git' },
+353 silly install resolved     author:
+353 silly install resolved      { name: 'Sindre Sorhus',
+353 silly install resolved        email: 'sindresorhus@gmail.com',
+353 silly install resolved        url: 'sindresorhus.com' },
+353 silly install resolved     maintainers: [ [Object], [Object] ],
+353 silly install resolved     engines: { node: '>=0.10.0' },
+353 silly install resolved     scripts: { test: 'xo && ava' },
+353 silly install resolved     files: [ 'index.js' ],
+353 silly install resolved     keywords:
+353 silly install resolved      [ 'strip',
+353 silly install resolved        'trim',
+353 silly install resolved        'remove',
+353 silly install resolved        'ansi',
+353 silly install resolved        'styles',
+353 silly install resolved        'color',
+353 silly install resolved        'colour',
+353 silly install resolved        'colors',
+353 silly install resolved        'terminal',
+353 silly install resolved        'console',
+353 silly install resolved        'string',
+353 silly install resolved        'tty',
+353 silly install resolved        'escape',
+353 silly install resolved        'formatting',
+353 silly install resolved        'rgb',
+353 silly install resolved        '256',
+353 silly install resolved        'shell',
+353 silly install resolved        'xterm',
+353 silly install resolved        'log',
+353 silly install resolved        'logging',
+353 silly install resolved        'command-line',
+353 silly install resolved        'text' ],
+353 silly install resolved     dependencies: { 'ansi-regex': '^2.0.0' },
+353 silly install resolved     devDependencies: { ava: '*', xo: '*' },
+353 silly install resolved     gitHead: '8270705c704956da865623e564eba4875c3ea17f',
+353 silly install resolved     bugs: { url: 'https://github.com/chalk/strip-ansi/issues' },
+353 silly install resolved     homepage: 'https://github.com/chalk/strip-ansi',
+353 silly install resolved     _id: 'strip-ansi@3.0.1',
+353 silly install resolved     _shasum: '6a385fb8853d952d5ff05d0e8aaf94278dc63dcf',
+353 silly install resolved     _from: 'strip-ansi@>=3.0.0 <4.0.0',
+353 silly install resolved     _npmVersion: '2.11.3',
+353 silly install resolved     _nodeVersion: '0.12.7',
+353 silly install resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+353 silly install resolved     dist:
+353 silly install resolved      { shasum: '6a385fb8853d952d5ff05d0e8aaf94278dc63dcf',
+353 silly install resolved        tarball: 'http://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz' },
+353 silly install resolved     _npmOperationalInternal:
+353 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+353 silly install resolved        tmp: 'tmp/strip-ansi-3.0.1.tgz_1456057278183_0.28958667791448534' },
+353 silly install resolved     directories: {},
+353 silly install resolved     _resolved: 'https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz',
+353 silly install resolved     readme: 'ERROR: No README data found!' },
+353 silly install resolved   { name: 'has-ansi',
+353 silly install resolved     version: '2.0.0',
+353 silly install resolved     description: 'Check if a string has ANSI escape codes',
+353 silly install resolved     license: 'MIT',
+353 silly install resolved     repository:
+353 silly install resolved      { type: 'git',
+353 silly install resolved        url: 'git+https://github.com/sindresorhus/has-ansi.git' },
+353 silly install resolved     author:
+353 silly install resolved      { name: 'Sindre Sorhus',
+353 silly install resolved        email: 'sindresorhus@gmail.com',
+353 silly install resolved        url: 'sindresorhus.com' },
+353 silly install resolved     maintainers: [ [Object], [Object] ],
+353 silly install resolved     engines: { node: '>=0.10.0' },
+353 silly install resolved     scripts: { test: 'node test.js' },
+353 silly install resolved     files: [ 'index.js' ],
+353 silly install resolved     keywords:
+353 silly install resolved      [ 'ansi',
+353 silly install resolved        'styles',
+353 silly install resolved        'color',
+353 silly install resolved        'colour',
+353 silly install resolved        'colors',
+353 silly install resolved        'terminal',
+353 silly install resolved        'console',
+353 silly install resolved        'string',
+353 silly install resolved        'tty',
+353 silly install resolved        'escape',
+353 silly install resolved        'shell',
+353 silly install resolved        'xterm',
+353 silly install resolved        'command-line',
+353 silly install resolved        'text',
+353 silly install resolved        'regex',
+353 silly install resolved        'regexp',
+353 silly install resolved        're',
+353 silly install resolved        'match',
+353 silly install resolved        'test',
+353 silly install resolved        'find',
+353 silly install resolved        'pattern',
+353 silly install resolved        'has' ],
+353 silly install resolved     dependencies: { 'ansi-regex': '^2.0.0' },
+353 silly install resolved     devDependencies: { ava: '0.0.4' },
+353 silly install resolved     gitHead: '0722275e1bef139fcd09137da6e5550c3cd368b9',
+353 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/has-ansi/issues' },
+353 silly install resolved     homepage: 'https://github.com/sindresorhus/has-ansi',
+353 silly install resolved     _id: 'has-ansi@2.0.0',
+353 silly install resolved     _shasum: '34f5049ce1ecdf2b0649af3ef24e45ed35416d91',
+353 silly install resolved     _from: 'has-ansi@>=2.0.0 <3.0.0',
+353 silly install resolved     _npmVersion: '2.11.2',
+353 silly install resolved     _nodeVersion: '0.12.5',
+353 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+353 silly install resolved     dist:
+353 silly install resolved      { shasum: '34f5049ce1ecdf2b0649af3ef24e45ed35416d91',
+353 silly install resolved        tarball: 'http://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz' },
+353 silly install resolved     directories: {},
+353 silly install resolved     _resolved: 'https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz',
+353 silly install resolved     readme: 'ERROR: No README data found!' },
+353 silly install resolved   { name: 'ansi-styles',
+353 silly install resolved     version: '2.2.1',
+353 silly install resolved     description: 'ANSI escape codes for styling strings in the terminal',
+353 silly install resolved     license: 'MIT',
+353 silly install resolved     repository:
+353 silly install resolved      { type: 'git',
+353 silly install resolved        url: 'git+https://github.com/chalk/ansi-styles.git' },
+353 silly install resolved     author:
+353 silly install resolved      { name: 'Sindre Sorhus',
+353 silly install resolved        email: 'sindresorhus@gmail.com',
+353 silly install resolved        url: 'sindresorhus.com' },
+353 silly install resolved     maintainers: [ [Object] ],
+353 silly install resolved     engines: { node: '>=0.10.0' },
+353 silly install resolved     scripts: { test: 'mocha' },
+353 silly install resolved     files: [ 'index.js' ],
+353 silly install resolved     keywords:
+353 silly install resolved      [ 'ansi',
+353 silly install resolved        'styles',
+353 silly install resolved        'color',
+353 silly install resolved        'colour',
+353 silly install resolved        'colors',
+353 silly install resolved        'terminal',
+353 silly install resolved        'console',
+353 silly install resolved        'cli',
+353 silly install resolved        'string',
+353 silly install resolved        'tty',
+353 silly install resolved        'escape',
+353 silly install resolved        'formatting',
+353 silly install resolved        'rgb',
+353 silly install resolved        '256',
+353 silly install resolved        'shell',
+353 silly install resolved        'xterm',
+353 silly install resolved        'log',
+353 silly install resolved        'logging',
+353 silly install resolved        'command-line',
+353 silly install resolved        'text' ],
+353 silly install resolved     devDependencies: { mocha: '*' },
+353 silly install resolved     gitHead: '95c59b23be760108b6530ca1c89477c21b258032',
+353 silly install resolved     bugs: { url: 'https://github.com/chalk/ansi-styles/issues' },
+353 silly install resolved     homepage: 'https://github.com/chalk/ansi-styles#readme',
+353 silly install resolved     _id: 'ansi-styles@2.2.1',
+353 silly install resolved     _shasum: 'b432dd3358b634cf75e1e4664368240533c1ddbe',
+353 silly install resolved     _from: 'ansi-styles@>=2.2.1 <3.0.0',
+353 silly install resolved     _npmVersion: '3.8.3',
+353 silly install resolved     _nodeVersion: '4.3.0',
+353 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+353 silly install resolved     dist:
+353 silly install resolved      { shasum: 'b432dd3358b634cf75e1e4664368240533c1ddbe',
+353 silly install resolved        tarball: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz' },
+353 silly install resolved     _npmOperationalInternal:
+353 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+353 silly install resolved        tmp: 'tmp/ansi-styles-2.2.1.tgz_1459197317833_0.9694824463222176' },
+353 silly install resolved     directories: {},
+353 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz',
+353 silly install resolved     readme: 'ERROR: No README data found!' } ]
+354 info install supports-color@2.0.0 into /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+355 info install escape-string-regexp@1.0.5 into /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+356 info install strip-ansi@3.0.1 into /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+357 info install has-ansi@2.0.0 into /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+358 info install ansi-styles@2.2.1 into /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+359 info installOne supports-color@2.0.0
+360 verbose installOne of supports-color to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+361 info installOne escape-string-regexp@1.0.5
+362 verbose installOne of escape-string-regexp to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+363 info installOne strip-ansi@3.0.1
+364 verbose installOne of strip-ansi to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+365 info installOne has-ansi@2.0.0
+366 verbose installOne of has-ansi to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+367 info installOne ansi-styles@2.2.1
+368 verbose installOne of ansi-styles to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+369 verbose lock using /Users/pauljackson/.npm/_locks/supports-color-d8b900721f8d5f1d.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+370 verbose lock using /Users/pauljackson/.npm/_locks/escape-string-regexp-ef9e8f13fecb1407.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+371 verbose lock using /Users/pauljackson/.npm/_locks/strip-ansi-2d1164653fb56617.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+372 verbose lock using /Users/pauljackson/.npm/_locks/has-ansi-f0d464bce6667929.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+373 silly install write writing supports-color 2.0.0 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+374 silly install write writing escape-string-regexp 1.0.5 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+375 silly install write writing strip-ansi 3.0.1 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+376 verbose lock using /Users/pauljackson/.npm/_locks/ansi-styles-a90db20d09ee0b0d.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+377 silly install write writing has-ansi 2.0.0 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+378 silly install write writing ansi-styles 2.2.1 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+379 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+380 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+381 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+382 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+383 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+384 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+385 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+386 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+387 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+388 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+389 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+390 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+391 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+392 verbose tar unpack /Users/pauljackson/.npm/supports-color/2.0.0/package.tgz
+393 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+394 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color is being purged
+395 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+396 verbose tar unpack /Users/pauljackson/.npm/escape-string-regexp/1.0.5/package.tgz
+397 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+398 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp is being purged
+399 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+400 verbose tar unpack /Users/pauljackson/.npm/strip-ansi/3.0.1/package.tgz
+401 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+402 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi is being purged
+403 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+404 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+405 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+406 verbose tar unpack /Users/pauljackson/.npm/has-ansi/2.0.0/package.tgz
+407 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+408 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi is being purged
+409 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+410 silly gunzTarPerm modes [ '755', '644' ]
+411 silly gunzTarPerm modes [ '755', '644' ]
+412 silly gunzTarPerm modes [ '755', '644' ]
+413 verbose tar unpack /Users/pauljackson/.npm/ansi-styles/2.2.1/package.tgz
+414 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+415 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles is being purged
+416 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+417 silly gunzTarPerm modes [ '755', '644' ]
+418 silly gunzTarPerm modes [ '755', '644' ]
+419 silly gunzTarPerm extractEntry package.json
+420 silly gunzTarPerm extractEntry package.json
+421 silly gunzTarPerm extractEntry package.json
+422 silly gunzTarPerm extractEntry package.json
+423 silly gunzTarPerm extractEntry package.json
+424 silly gunzTarPerm extractEntry index.js
+425 silly gunzTarPerm extractEntry license
+426 silly gunzTarPerm extractEntry index.js
+427 silly gunzTarPerm extractEntry license
+428 silly gunzTarPerm extractEntry index.js
+429 silly gunzTarPerm extractEntry license
+430 silly gunzTarPerm extractEntry index.js
+431 silly gunzTarPerm extractEntry license
+432 silly gunzTarPerm extractEntry index.js
+433 silly gunzTarPerm extractEntry license
+434 silly gunzTarPerm extractEntry readme.md
+435 silly gunzTarPerm extractEntry readme.md
+436 silly gunzTarPerm extractEntry readme.md
+437 silly gunzTarPerm extractEntry readme.md
+438 silly gunzTarPerm extractEntry readme.md
+439 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/package.json
+440 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp/package.json
+441 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/package.json
+442 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color/package.json
+443 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles/package.json
+444 info preinstall has-ansi@2.0.0
+445 info preinstall escape-string-regexp@1.0.5
+446 info preinstall strip-ansi@3.0.1
+447 info preinstall supports-color@2.0.0
+448 info preinstall ansi-styles@2.2.1
+449 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/package.json
+450 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp/package.json
+451 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/package.json
+452 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color/package.json
+453 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles/package.json
+454 silly prepareForInstallMany adding ansi-regex@^2.0.0 from has-ansi dependencies
+455 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/package.json
+456 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp/package.json
+457 silly prepareForInstallMany adding ansi-regex@^2.0.0 from strip-ansi dependencies
+458 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/package.json
+459 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color/package.json
+460 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles/package.json
+461 silly install resolved []
+462 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+463 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+464 silly cache add args [ 'ansi-regex@^2.0.0', null ]
+465 verbose cache add spec ansi-regex@^2.0.0
+466 silly cache add parsed spec Result {
+466 silly cache add   raw: 'ansi-regex@^2.0.0',
+466 silly cache add   scope: null,
+466 silly cache add   name: 'ansi-regex',
+466 silly cache add   rawSpec: '^2.0.0',
+466 silly cache add   spec: '>=2.0.0 <3.0.0',
+466 silly cache add   type: 'range' }
+467 silly addNamed ansi-regex@>=2.0.0 <3.0.0
+468 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for ansi-regex
+469 silly addNameRange { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: false }
+470 silly mapToRegistry name ansi-regex
+471 silly mapToRegistry using default registry
+472 silly mapToRegistry registry https://registry.npmjs.org/
+473 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+474 verbose addNameRange registry:https://registry.npmjs.org/ansi-regex not in flight; fetching
+475 silly install resolved []
+476 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+477 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+478 silly install resolved []
+479 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+480 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+481 info linkStuff escape-string-regexp@1.0.5
+482 silly linkStuff escape-string-regexp@1.0.5 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+483 silly cache add args [ 'ansi-regex@^2.0.0', null ]
+484 verbose cache add spec ansi-regex@^2.0.0
+485 silly cache add parsed spec Result {
+485 silly cache add   raw: 'ansi-regex@^2.0.0',
+485 silly cache add   scope: null,
+485 silly cache add   name: 'ansi-regex',
+485 silly cache add   rawSpec: '^2.0.0',
+485 silly cache add   spec: '>=2.0.0 <3.0.0',
+485 silly cache add   type: 'range' }
+486 silly addNamed ansi-regex@>=2.0.0 <3.0.0
+487 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for ansi-regex
+488 silly addNameRange { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: false }
+489 silly mapToRegistry name ansi-regex
+490 silly mapToRegistry using default registry
+491 silly mapToRegistry registry https://registry.npmjs.org/
+492 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+493 verbose addNameRange registry:https://registry.npmjs.org/ansi-regex already in flight; waiting
+494 info linkStuff supports-color@2.0.0
+495 silly linkStuff supports-color@2.0.0 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+496 verbose request uri https://registry.npmjs.org/ansi-regex
+497 verbose request no auth needed
+498 info attempt registry request try #1 at 10:12:35 PM
+499 verbose etag "BN63D3KK8WIQW515ZAUE2LOAL"
+500 http request GET https://registry.npmjs.org/ansi-regex
+501 info linkStuff ansi-styles@2.2.1
+502 silly linkStuff ansi-styles@2.2.1 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+503 verbose linkBins escape-string-regexp@1.0.5
+504 verbose linkMans escape-string-regexp@1.0.5
+505 verbose rebuildBundles escape-string-regexp@1.0.5
+506 info install escape-string-regexp@1.0.5
+507 verbose linkBins supports-color@2.0.0
+508 verbose linkMans supports-color@2.0.0
+509 verbose rebuildBundles supports-color@2.0.0
+510 verbose linkBins ansi-styles@2.2.1
+511 verbose linkMans ansi-styles@2.2.1
+512 verbose rebuildBundles ansi-styles@2.2.1
+513 info install supports-color@2.0.0
+514 info install ansi-styles@2.2.1
+515 info postinstall escape-string-regexp@1.0.5
+516 info postinstall supports-color@2.0.0
+517 info postinstall ansi-styles@2.2.1
+518 verbose unlock done using /Users/pauljackson/.npm/_locks/escape-string-regexp-ef9e8f13fecb1407.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+519 verbose unlock done using /Users/pauljackson/.npm/_locks/supports-color-d8b900721f8d5f1d.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+520 verbose unlock done using /Users/pauljackson/.npm/_locks/ansi-styles-a90db20d09ee0b0d.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+521 http 304 https://registry.npmjs.org/ansi-regex
+522 verbose headers { date: 'Mon, 06 Jun 2016 05:12:26 GMT',
+522 verbose headers   via: '1.1 varnish',
+522 verbose headers   'cache-control': 'max-age=300',
+522 verbose headers   etag: '"BN63D3KK8WIQW515ZAUE2LOAL"',
+522 verbose headers   age: '152',
+522 verbose headers   connection: 'keep-alive',
+522 verbose headers   'x-served-by': 'cache-lax1427-LAX',
+522 verbose headers   'x-cache': 'HIT',
+522 verbose headers   'x-cache-hits': '7',
+522 verbose headers   'x-timer': 'S1465189946.100579,VS0,VE0',
+522 verbose headers   vary: 'Accept-Encoding' }
+523 silly get cb [ 304,
+523 silly get   { date: 'Mon, 06 Jun 2016 05:12:26 GMT',
+523 silly get     via: '1.1 varnish',
+523 silly get     'cache-control': 'max-age=300',
+523 silly get     etag: '"BN63D3KK8WIQW515ZAUE2LOAL"',
+523 silly get     age: '152',
+523 silly get     connection: 'keep-alive',
+523 silly get     'x-served-by': 'cache-lax1427-LAX',
+523 silly get     'x-cache': 'HIT',
+523 silly get     'x-cache-hits': '7',
+523 silly get     'x-timer': 'S1465189946.100579,VS0,VE0',
+523 silly get     vary: 'Accept-Encoding' } ]
+524 verbose etag https://registry.npmjs.org/ansi-regex from cache
+525 verbose get saving ansi-regex to /Users/pauljackson/.npm/registry.npmjs.org/ansi-regex/.cache.json
+526 silly addNameRange number 2 { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: true }
+527 silly addNameRange versions [ 'ansi-regex',
+527 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '1.0.0', '1.1.0', '1.1.1', '2.0.0' ] ]
+528 silly addNamed ansi-regex@2.0.0
+529 verbose addNamed "2.0.0" is a plain semver version for ansi-regex
+530 silly addNameRange number 2 { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: true }
+531 silly addNameRange versions [ 'ansi-regex',
+531 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '1.0.0', '1.1.0', '1.1.1', '2.0.0' ] ]
+532 silly addNamed ansi-regex@2.0.0
+533 verbose addNamed "2.0.0" is a plain semver version for ansi-regex
+534 silly cache afterAdd ansi-regex@2.0.0
+535 verbose afterAdd /Users/pauljackson/.npm/ansi-regex/2.0.0/package/package.json not in flight; writing
+536 silly cache afterAdd ansi-regex@2.0.0
+537 verbose afterAdd /Users/pauljackson/.npm/ansi-regex/2.0.0/package/package.json already in flight; not writing
+538 verbose afterAdd /Users/pauljackson/.npm/ansi-regex/2.0.0/package/package.json written
+539 silly install resolved [ { name: 'ansi-regex',
+539 silly install resolved     version: '2.0.0',
+539 silly install resolved     description: 'Regular expression for matching ANSI escape codes',
+539 silly install resolved     license: 'MIT',
+539 silly install resolved     repository:
+539 silly install resolved      { type: 'git',
+539 silly install resolved        url: 'git+https://github.com/sindresorhus/ansi-regex.git' },
+539 silly install resolved     author:
+539 silly install resolved      { name: 'Sindre Sorhus',
+539 silly install resolved        email: 'sindresorhus@gmail.com',
+539 silly install resolved        url: 'sindresorhus.com' },
+539 silly install resolved     maintainers: [ [Object], [Object] ],
+539 silly install resolved     engines: { node: '>=0.10.0' },
+539 silly install resolved     scripts:
+539 silly install resolved      { test: 'mocha test/test.js',
+539 silly install resolved        'view-supported': 'node test/viewCodes.js' },
+539 silly install resolved     files: [ 'index.js' ],
+539 silly install resolved     keywords:
+539 silly install resolved      [ 'ansi',
+539 silly install resolved        'styles',
+539 silly install resolved        'color',
+539 silly install resolved        'colour',
+539 silly install resolved        'colors',
+539 silly install resolved        'terminal',
+539 silly install resolved        'console',
+539 silly install resolved        'cli',
+539 silly install resolved        'string',
+539 silly install resolved        'tty',
+539 silly install resolved        'escape',
+539 silly install resolved        'formatting',
+539 silly install resolved        'rgb',
+539 silly install resolved        '256',
+539 silly install resolved        'shell',
+539 silly install resolved        'xterm',
+539 silly install resolved        'command-line',
+539 silly install resolved        'text',
+539 silly install resolved        'regex',
+539 silly install resolved        'regexp',
+539 silly install resolved        're',
+539 silly install resolved        'match',
+539 silly install resolved        'test',
+539 silly install resolved        'find',
+539 silly install resolved        'pattern' ],
+539 silly install resolved     devDependencies: { mocha: '*' },
+539 silly install resolved     gitHead: '57c3f2941a73079fa8b081e02a522e3d29913e2f',
+539 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-regex/issues' },
+539 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-regex',
+539 silly install resolved     _id: 'ansi-regex@2.0.0',
+539 silly install resolved     _shasum: 'c5061b6e0ef8a81775e50f5d66151bf6bf371107',
+539 silly install resolved     _from: 'ansi-regex@>=2.0.0 <3.0.0',
+539 silly install resolved     _npmVersion: '2.11.2',
+539 silly install resolved     _nodeVersion: '0.12.5',
+539 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+539 silly install resolved     dist:
+539 silly install resolved      { shasum: 'c5061b6e0ef8a81775e50f5d66151bf6bf371107',
+539 silly install resolved        tarball: 'http://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz' },
+539 silly install resolved     directories: {},
+539 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz',
+539 silly install resolved     readme: 'ERROR: No README data found!' } ]
+540 info install ansi-regex@2.0.0 into /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+541 info installOne ansi-regex@2.0.0
+542 verbose installOne of ansi-regex to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi not in flight; installing
+543 silly install resolved [ { name: 'ansi-regex',
+543 silly install resolved     version: '2.0.0',
+543 silly install resolved     description: 'Regular expression for matching ANSI escape codes',
+543 silly install resolved     license: 'MIT',
+543 silly install resolved     repository:
+543 silly install resolved      { type: 'git',
+543 silly install resolved        url: 'git+https://github.com/sindresorhus/ansi-regex.git' },
+543 silly install resolved     author:
+543 silly install resolved      { name: 'Sindre Sorhus',
+543 silly install resolved        email: 'sindresorhus@gmail.com',
+543 silly install resolved        url: 'sindresorhus.com' },
+543 silly install resolved     maintainers: [ [Object], [Object] ],
+543 silly install resolved     engines: { node: '>=0.10.0' },
+543 silly install resolved     scripts:
+543 silly install resolved      { test: 'mocha test/test.js',
+543 silly install resolved        'view-supported': 'node test/viewCodes.js' },
+543 silly install resolved     files: [ 'index.js' ],
+543 silly install resolved     keywords:
+543 silly install resolved      [ 'ansi',
+543 silly install resolved        'styles',
+543 silly install resolved        'color',
+543 silly install resolved        'colour',
+543 silly install resolved        'colors',
+543 silly install resolved        'terminal',
+543 silly install resolved        'console',
+543 silly install resolved        'cli',
+543 silly install resolved        'string',
+543 silly install resolved        'tty',
+543 silly install resolved        'escape',
+543 silly install resolved        'formatting',
+543 silly install resolved        'rgb',
+543 silly install resolved        '256',
+543 silly install resolved        'shell',
+543 silly install resolved        'xterm',
+543 silly install resolved        'command-line',
+543 silly install resolved        'text',
+543 silly install resolved        'regex',
+543 silly install resolved        'regexp',
+543 silly install resolved        're',
+543 silly install resolved        'match',
+543 silly install resolved        'test',
+543 silly install resolved        'find',
+543 silly install resolved        'pattern' ],
+543 silly install resolved     devDependencies: { mocha: '*' },
+543 silly install resolved     gitHead: '57c3f2941a73079fa8b081e02a522e3d29913e2f',
+543 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-regex/issues' },
+543 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-regex',
+543 silly install resolved     _id: 'ansi-regex@2.0.0',
+543 silly install resolved     _shasum: 'c5061b6e0ef8a81775e50f5d66151bf6bf371107',
+543 silly install resolved     _from: 'ansi-regex@>=2.0.0 <3.0.0',
+543 silly install resolved     _npmVersion: '2.11.2',
+543 silly install resolved     _nodeVersion: '0.12.5',
+543 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+543 silly install resolved     dist:
+543 silly install resolved      { shasum: 'c5061b6e0ef8a81775e50f5d66151bf6bf371107',
+543 silly install resolved        tarball: 'http://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz' },
+543 silly install resolved     directories: {},
+543 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz',
+543 silly install resolved     readme: 'ERROR: No README data found!' } ]
+544 info install ansi-regex@2.0.0 into /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+545 info installOne ansi-regex@2.0.0
+546 verbose installOne of ansi-regex to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi not in flight; installing
+547 verbose lock using /Users/pauljackson/.npm/_locks/ansi-regex-17563e23b3182ab7.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+548 verbose lock using /Users/pauljackson/.npm/_locks/ansi-regex-e0449dd5e86628be.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+549 silly install write writing ansi-regex 2.0.0 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+550 silly install write writing ansi-regex 2.0.0 to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+551 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+552 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+553 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+554 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+555 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex is being purged from base /Users/pauljackson/Desktop/CAA-Geolocation-Static
+556 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+557 verbose tar unpack /Users/pauljackson/.npm/ansi-regex/2.0.0/package.tgz
+558 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+559 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex is being purged
+560 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+561 verbose tar unpack /Users/pauljackson/.npm/ansi-regex/2.0.0/package.tgz
+562 verbose tar unpacking to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+563 silly gentlyRm /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex is being purged
+564 verbose gentlyRm don't care about contents; nuking /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+565 silly gunzTarPerm modes [ '755', '644' ]
+566 silly gunzTarPerm modes [ '755', '644' ]
+567 silly gunzTarPerm extractEntry package.json
+568 silly gunzTarPerm extractEntry package.json
+569 silly gunzTarPerm extractEntry index.js
+570 silly gunzTarPerm extractEntry license
+571 silly gunzTarPerm extractEntry index.js
+572 silly gunzTarPerm extractEntry license
+573 silly gunzTarPerm extractEntry readme.md
+574 silly gunzTarPerm extractEntry readme.md
+575 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json
+576 verbose write writing to /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json
+577 info preinstall ansi-regex@2.0.0
+578 info preinstall ansi-regex@2.0.0
+579 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json
+580 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json
+581 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json
+582 verbose readDependencies loading dependencies from /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json
+583 silly install resolved []
+584 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+585 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+586 silly install resolved []
+587 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+588 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+589 info linkStuff ansi-regex@2.0.0
+590 silly linkStuff ansi-regex@2.0.0 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules as its parent node_modules
+591 info linkStuff ansi-regex@2.0.0
+592 silly linkStuff ansi-regex@2.0.0 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules as its parent node_modules
+593 verbose linkBins ansi-regex@2.0.0
+594 verbose linkMans ansi-regex@2.0.0
+595 verbose rebuildBundles ansi-regex@2.0.0
+596 verbose linkBins ansi-regex@2.0.0
+597 verbose linkMans ansi-regex@2.0.0
+598 verbose rebuildBundles ansi-regex@2.0.0
+599 info install ansi-regex@2.0.0
+600 info install ansi-regex@2.0.0
+601 info postinstall ansi-regex@2.0.0
+602 info postinstall ansi-regex@2.0.0
+603 verbose unlock done using /Users/pauljackson/.npm/_locks/ansi-regex-17563e23b3182ab7.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+604 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+605 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+606 verbose unlock done using /Users/pauljackson/.npm/_locks/ansi-regex-e0449dd5e86628be.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+607 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+608 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+609 info linkStuff strip-ansi@3.0.1
+610 silly linkStuff strip-ansi@3.0.1 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+611 info linkStuff has-ansi@2.0.0
+612 silly linkStuff has-ansi@2.0.0 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+613 verbose linkBins strip-ansi@3.0.1
+614 verbose linkMans strip-ansi@3.0.1
+615 verbose rebuildBundles strip-ansi@3.0.1
+616 verbose linkBins has-ansi@2.0.0
+617 verbose linkMans has-ansi@2.0.0
+618 verbose rebuildBundles has-ansi@2.0.0
+619 verbose rebuildBundles [ 'ansi-regex' ]
+620 info install strip-ansi@3.0.1
+621 verbose rebuildBundles [ 'ansi-regex' ]
+622 info install has-ansi@2.0.0
+623 info postinstall strip-ansi@3.0.1
+624 info postinstall has-ansi@2.0.0
+625 verbose unlock done using /Users/pauljackson/.npm/_locks/strip-ansi-2d1164653fb56617.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+626 verbose unlock done using /Users/pauljackson/.npm/_locks/has-ansi-f0d464bce6667929.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+627 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+628 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+629 info linkStuff chalk@1.1.3
+630 silly linkStuff chalk@1.1.3 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules as its parent node_modules
+631 verbose linkBins chalk@1.1.3
+632 verbose linkMans chalk@1.1.3
+633 verbose rebuildBundles chalk@1.1.3
+634 verbose rebuildBundles [ 'ansi-styles',
+634 verbose rebuildBundles   'escape-string-regexp',
+634 verbose rebuildBundles   'has-ansi',
+634 verbose rebuildBundles   'strip-ansi',
+634 verbose rebuildBundles   'supports-color' ]
+635 info install chalk@1.1.3
+636 info postinstall chalk@1.1.3
+637 verbose unlock done using /Users/pauljackson/.npm/_locks/chalk-0397036a37416484.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy/node_modules/chalk
+638 verbose about to build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+639 info build /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+640 info linkStuff grunt-contrib-copy@1.0.0
+641 silly linkStuff grunt-contrib-copy@1.0.0 has /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules as its parent node_modules
+642 verbose linkBins grunt-contrib-copy@1.0.0
+643 verbose linkMans grunt-contrib-copy@1.0.0
+644 verbose rebuildBundles grunt-contrib-copy@1.0.0
+645 verbose rebuildBundles [ 'chalk', 'file-sync-cmp' ]
+646 info install grunt-contrib-copy@1.0.0
+647 info postinstall grunt-contrib-copy@1.0.0
+648 verbose unlock done using /Users/pauljackson/.npm/_locks/grunt-contrib-copy-d967e1240172b26c.lock for /Users/pauljackson/Desktop/CAA-Geolocation-Static/node_modules/grunt-contrib-copy
+649 verbose validateInstall loading /Users/pauljackson/Desktop/CAA-Geolocation-Static/package.json for validation
+650 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+650 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+650 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+650 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+650 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+650 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+650 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+650 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+650 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+650 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+650 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+651 verbose cwd /Users/pauljackson/Desktop/CAA-Geolocation-Static
+652 error Darwin 15.5.0
+653 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "grunt-contrib-copy"
+654 error node v4.3.1
+655 error npm  v2.14.12
+656 error code EPEERINVALID
+657 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+657 error peerinvalid Peer grunt-mount@0.2.5 wants grunt@~0.4.1
+657 error peerinvalid Peer grunt-include-replace@4.0.1 wants grunt@~0.4.4 || ^1.0.1
+657 error peerinvalid Peer grunt-contrib-clean@1.0.0 wants grunt@>= 0.4.5
+658 verbose exit [ 1, true ]
